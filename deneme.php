@@ -1,2 +1,2 @@
 <?php
-echo "main ekleme yaptı";
+echo "nuro ekleme yaptı.";
