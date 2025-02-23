@@ -8,11 +8,11 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#anasayfa">ANASAYFA</a></li>
+                <li><a href="{{ url('/') }}">ANASAYFA</a></li>
                 <li><a href="#hakkimizda">HAKKIMIZDA</a></li>
                 <li><a href="#hizmetler">HİZMETLER</a></li>
                 <li><a href="#galeri">GALERİ</a></li>
-                <li><a href="#iletisim">İLETİŞİM</a></li>
+                <li><a href="{{ url('/contact') }}">İLETİŞİM</a></li>
             </ul>
             <!-- Sosyal medya ikonları -->
             <div class="social-icons">
