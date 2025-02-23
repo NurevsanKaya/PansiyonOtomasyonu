@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venüs Pansiyon</title>
-    <!-- CSS Dosyasını Dahil Et -->
-    @vite('resources/css/app.css')
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-</head>
-<body>
+
+
 <header class="header">
     <div class="container">
         <div class="logo">
@@ -37,11 +28,3 @@
         </nav>
     </div>
 </header>
-
-
-
-<!-- JavaScript Dosyasını Dahil Et -->
-@vite('resources/js/app.js')
-
-</body>
-</html>

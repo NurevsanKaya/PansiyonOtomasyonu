@@ -124,6 +124,13 @@ a {
 .btn:hover {
     background: #e6c200;
 }
+/* Hover efekti */
+.hover-effect:hover {
+    color: #b7d1ff !important; /* Hover rengi */
+    transition: color 0.3s ease; /* Geçiş efekti */
+}
+
+
 
 /* Buton için navbar'da sağa hizalama */
 .navbar .navbar-right {
