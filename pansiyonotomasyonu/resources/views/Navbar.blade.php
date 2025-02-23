@@ -29,6 +29,11 @@
                 <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
             </div>
+            <!-- Buton (Navbarın Üstüne Eklenen) -->
+            <div class="navbar-button-container">
+                <button class="custom-button">Giriş Yap</button>
+                    <button class="custom-button">Kayıt Ol</button>
+            </div>
         </nav>
     </div>
 </header>
