@@ -32,14 +32,14 @@ a {
 .logo h1 {
     margin: 0;
     font-size: 1.8rem;
-    color: #FFD700;
+    color: #445799;
 }
 
 /* Navbar Ayarları */
 .navbar {
     background-color: white;
     display: flex;
-    justify-content: center; /* Navbar'ı ortalayalım */
+    justify-content: space-between; /* Navbar öğelerini sağa ve sola hizalar */
     align-items: center; /* Vertikal hizalama */
     padding: 10px 20px;
 }
@@ -63,7 +63,7 @@ a {
 }
 
 .navbar ul li a:hover {
-    color: #FFD700; /* Hover rengi */
+    color:  #b7d1ff; /* Hover rengi */
 }
 
 /* Sosyal medya ikonları */
@@ -80,7 +80,7 @@ a {
 }
 
 .social-icon:hover {
-    color: #FFD700; /* Hover rengi */
+    color: #b7d1ff; /* Hover rengi */
 }
 
 /* Hero Section */
@@ -131,3 +131,25 @@ a {
 }
 
 
+
+/* Buton için navbar'da sağa hizalama */
+.navbar .navbar-right {
+    display: flex;
+    justify-content: flex-end; /* Sağ tarafa yerleştir */
+    align-items: center;
+}
+
+/* Navbar'daki Buton */
+.custom-button {
+    background-color: #445799;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0288d1;
+}

@@ -1,0 +1,67 @@
+/* Slider kapsayıcı */
+.slider-container {
+    position: relative;
+    width: 100vw; /* Tam genişlik */
+    height: 100vh; /* Tam yükseklik */
+    overflow: hidden;
+}
+
+/* Slider */
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slides {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100vw; /* Ekran genişliği */
+    height: 100vh; /* Ekran yüksekliği */
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Görüntülerin taşmasını engelle */
+}
+
+/* Geçiş düğmeleri */
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+.prev-button:hover, .next-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Ekstra: Mobil uyumluluk */
+@media (max-width: 768px) {
+    .prev-button, .next-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
