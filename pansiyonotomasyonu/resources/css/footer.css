@@ -1,13 +1,6 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
 
-main {
-    flex: 1; /* Ana içerik esnek olacak, footer alt tarafa sabitlenmiş olacak */
-}
+
+
 
 footer {
     background-color: #333;
