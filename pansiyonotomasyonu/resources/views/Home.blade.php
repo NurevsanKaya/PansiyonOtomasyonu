@@ -9,12 +9,14 @@
     <!-- CSS Dosyasını Dahil Et -->
     @vite('resources/css/footer.css')
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
+    @vite('resources/js/home.js')
+    @vite('resources/css/home.css')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
 @include('Navbar')
-<main class="flex-grow-1">
 
     <div class="slider-container">
         <button class="prev-button">❮</button>
@@ -28,7 +30,7 @@
         </div>
         <button class="next-button">❯</button>
     </div>
-</main>
+
 @include('Footer')
 <!-- JavaScript Dosyasını Dahil Et -->
 @vite('resources/js/app.js')
