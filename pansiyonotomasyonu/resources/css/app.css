@@ -45,6 +45,7 @@ a {
     justify-content: space-between; /* Navbar öğelerini sağa ve sola hizalar */
     align-items: center; /* Vertikal hizalama */
     padding: 10px 20px;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -154,5 +155,6 @@ a {
 }
 
 .custom-button:hover {
-    background-color: #0288d1;
+    background-color:#0288d1;
 }
+

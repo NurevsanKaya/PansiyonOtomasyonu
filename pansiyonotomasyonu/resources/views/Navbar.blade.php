@@ -9,9 +9,9 @@
         <nav class="navbar">
             <ul>
                 <li><a href="{{ url('/') }}">ANASAYFA</a></li>
-                <li><a href="#hakkimizda">HAKKIMIZDA</a></li>
-                <li><a href="#hizmetler">HİZMETLER</a></li>
-                <li><a href="#galeri">GALERİ</a></li>
+                <li><a href="{{ url('/hakkımızda') }}">HAKKIMIZDA</a></li>
+                <li><a href="{{ url('/hizmetler') }}">HİZMETLER</a></li>
+                <li><a href="{{ url('/galeri') }}">GALERİ</a></li>
                 <li><a href="{{ url('/contact') }}">İLETİŞİM</a></li>
             </ul>
             <!-- Sosyal medya ikonları -->
