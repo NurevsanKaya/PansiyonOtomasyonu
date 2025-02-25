@@ -12,9 +12,9 @@
             <div class="col-md-4 mb-4">
                 <h4 class="text-primary mb-3">Hızlı Bağlantılar</h4>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-effect">Ana Sayfa</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-effect">Hizmetler</a></li>
-                    <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-effect">İletişim</a></li>
+                    <li class="mb-2"><a href="{{ url('/') }}" class="text-white text-decoration-none hover-effect">Ana Sayfa</a></li>
+                    <li class="mb-2"><a href="{{ url('/hizmetler') }}" class="text-white text-decoration-none hover-effect">Hizmetler</a></li>
+                    <li class="mb-2"><a href="{{ url('/contact') }}" class="text-white text-decoration-none hover-effect">İletişim</a></li>
                 </ul>
             </div>
 

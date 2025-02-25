@@ -10,6 +10,15 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contact'); // contact.blade.php dosyasını döndürür
 });
+Route::get('/hakkımızda', function () {
+    return view('aboutus');
+});
+Route::get('/hizmetler', function () {
+    return view('service');
+});Route::get('/galeri', function () {
+    return view('gallery');
+});
+
 Route::get('/', function () {
     return view('Slider');
 });
