@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('rezervations', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('room_id')->constrained('rooms')->onDelete('cascade');
+            $table->date('check_in'); // Giriş tarihi
+            $table->date('check_out'); // Çıkış tarihi
+            $table->decimal('total_price', 10, 2);
+            $table->enum('status', ['pending', 'confirmed', 'cancelled'])->default('pending');
+            $table->enum('payment_type', ['cash', 'credit_card'])->default('credit_card');
+
             $table->timestamps();
         });
     }

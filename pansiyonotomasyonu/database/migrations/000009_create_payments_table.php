@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('rezervation_id')->constrained('rezervations')->onDelete('cascade');
+            $table->decimal('amount', 10, 2);
+            $table->enum('payment_method', ['cash', 'credit_card'])->default('credit_card');
+            $table->enum('status', ['pending', 'completed', 'failed', 'refunded'])->default('pending'); // Ödeme durumu
             $table->timestamps();
         });
     }
