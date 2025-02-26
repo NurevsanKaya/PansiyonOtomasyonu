@@ -4,7 +4,7 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <h1>Venüs Pansiyon</h1>
+            <h1>Can Pansiyon</h1>
         </div>
         <nav class="navbar">
             <ul>

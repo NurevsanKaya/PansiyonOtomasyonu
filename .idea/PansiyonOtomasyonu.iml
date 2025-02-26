@@ -132,6 +132,31 @@
       <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/phpstan/phpdoc-parser" />
       <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/ta-tikoma/phpunit-architecture-test" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/anourvalar/eloquent-serialize" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/blade-ui-kit/blade-heroicons" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/blade-ui-kit/blade-icons" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/danharrin/date-format-converter" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/danharrin/livewire-rate-limiting" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/actions" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/filament" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/forms" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/infolists" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/notifications" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/support" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/tables" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/filament/widgets" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/kirschbaum-development/eloquent-power-joins" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/league/csv" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/livewire/livewire" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/openspout/openspout" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/ryangjchandler/blade-capture-directive" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/spatie/color" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/spatie/invade" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/spatie/laravel-package-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/pansiyonotomasyonu/vendor/symfony/html-sanitizer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
