@@ -22,8 +22,8 @@
             </div>
             <!-- Buton (Navbarın Üstüne Eklenen) -->
             <div class="navbar-button-container">
-                <button class="custom-button">Giriş Yap</button>
-                    <button class="custom-button">Kayıt Ol</button>
+                <a class="custom-button" href="{{ route('login') }}">Giriş Yap</a>
+                    <a class="custom-button" href="{{ route('register') }}" >Kayıt Ol</a>
             </div>
         </nav>
     </div>
