@@ -12,3 +12,5 @@ class Services extends Model
         'price'
     ];
 }
+
+
