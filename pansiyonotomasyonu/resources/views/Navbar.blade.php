@@ -4,14 +4,14 @@
 <header class="header">
     <div class="container">
         <div class="logo">
-            <h1>Can Pansiyon</h1>
+            <h1>GülNur</h1>
         </div>
         <nav class="navbar">
             <ul>
                 <li><a href="{{ url('/') }}">ANASAYFA</a></li>
-                <li><a href="{{ url('/hakkımızda') }}">HAKKIMIZDA</a></li>
-                <li><a href="{{ url('/hizmetler') }}">HİZMETLER</a></li>
-                <li><a href="{{ url('/galeri') }}">GALERİ</a></li>
+                <li><a href="{{ url('/about') }}">HAKKIMIZDA</a></li>
+                <li><a href="{{ url('/room') }}">ODALAR</a></li>
+                <li><a href="{{ url('/gallery') }}">GALERİ</a></li>
                 <li><a href="{{ url('/contact') }}">İLETİŞİM</a></li>
             </ul>
             <!-- Sosyal medya ikonları -->
