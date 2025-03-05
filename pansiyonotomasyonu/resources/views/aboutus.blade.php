@@ -1,6 +1,12 @@
 @extends('Home')
 
 @section('content')
+    @vite('resources/js/aboutus.js')
+    @vite('resources/css/aboutus.css')
+    <br>
+    <br>
+    <br>
+
 
     <div class="container mt-5">
         <!-- Başlık ve Açıklama -->
@@ -15,10 +21,15 @@
         <!-- Görselli Bölüm -->
         <div class="row align-items-center mt-4">
             <div class="col-md-6">
-                <img src="https://source.unsplash.com/600x400/?dormitory,student" class="img-fluid rounded shadow" alt="Öğrenci Yurdu">
+                <img src="oda1.jpg" alt="Oda 1">
             </div>
             <div class="col-md-6">
-                <h3 class="fw-bold">Neden Bizi Seçmelisiniz?</h3>
+                <h1> Çomü Terzioğlu Kampüsü'ndeki Tek Özel Yurttasın <h1>
+                        <br>
+                        <br> <br>
+                        <br>
+                <h2 class="fw-bold">Neden Bizi Seçmelisiniz?</h2>
+
                 <ul class="list-unstyled">
                     <li><i class="fas fa-check-circle text-primary"></i> Güvenli ve modern odalar</li>
                     <li><i class="fas fa-check-circle text-primary"></i> 7/24 Güvenlik ve Kamera Sistemi</li>

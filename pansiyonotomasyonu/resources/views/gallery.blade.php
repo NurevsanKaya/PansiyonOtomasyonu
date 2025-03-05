@@ -4,6 +4,8 @@
 <br>
 <br>
 @section('content')
+    @vite('resources/js/gallery.js')
+    @vite('resources/css/gallery.css')
     <section class="gallery py-5">
         <div class="container">
             <h2 class="text-center fw-bold mb-4">Galeri</h2>
