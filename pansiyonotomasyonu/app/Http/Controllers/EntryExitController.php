@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\RezervationServices;
+use App\Models\EntryExit;
 use Illuminate\Http\Request;
 
-class RezervationServicesController extends Controller
+class EntryExitController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class RezervationServicesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(RezervationServices $rezervationServices)
+    public function show(EntryExit $entryExit)
     {
         //
     }
@@ -42,7 +42,7 @@ class RezervationServicesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(RezervationServices $rezervationServices)
+    public function edit(EntryExit $entryExit)
     {
         //
     }
@@ -50,7 +50,7 @@ class RezervationServicesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, RezervationServices $rezervationServices)
+    public function update(Request $request, EntryExit $entryExit)
     {
         //
     }
@@ -58,7 +58,7 @@ class RezervationServicesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(RezervationServices $rezervationServices)
+    public function destroy(EntryExit $entryExit)
     {
         //
     }

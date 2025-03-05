@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Payment extends Model
+class ComplaintRequest extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['student_id', 'amount', 'payment_date', 'payment_status', 'payment_type', 'due_date'];
+    protected $fillable = ['student_id', 'title', 'description', 'status'];
 
     public function student()
     {

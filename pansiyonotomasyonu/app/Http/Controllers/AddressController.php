@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Amenity;
+use App\Models\Address;
 use Illuminate\Http\Request;
 
-class AmenityController extends Controller
+class AddressController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class AmenityController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Amenity $amenity)
+    public function show(Address $address)
     {
         //
     }
@@ -42,7 +42,7 @@ class AmenityController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Amenity $amenity)
+    public function edit(Address $address)
     {
         //
     }
@@ -50,7 +50,7 @@ class AmenityController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Amenity $amenity)
+    public function update(Request $request, Address $address)
     {
         //
     }
@@ -58,7 +58,7 @@ class AmenityController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Amenity $amenity)
+    public function destroy(Address $address)
     {
         //
     }

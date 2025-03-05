@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Services;
+use App\Models\ComplaintRequest;
 use Illuminate\Http\Request;
 
-class ServicesController extends Controller
+class ComplaintRequestController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class ServicesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Services $services)
+    public function show(ComplaintRequest $complaintRequest)
     {
         //
     }
@@ -42,7 +42,7 @@ class ServicesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Services $services)
+    public function edit(ComplaintRequest $complaintRequest)
     {
         //
     }
@@ -50,7 +50,7 @@ class ServicesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Services $services)
+    public function update(Request $request, ComplaintRequest $complaintRequest)
     {
         //
     }
@@ -58,7 +58,7 @@ class ServicesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Services $services)
+    public function destroy(ComplaintRequest $complaintRequest)
     {
         //
     }

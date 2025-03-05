@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Payment extends Model
+class Guardian extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['student_id', 'amount', 'payment_date', 'payment_status', 'payment_type', 'due_date'];
+    protected $fillable = ['student_id', 'first_name', 'last_name', 'phone', 'relationship', 'email'];
 
     public function student()
     {
