@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Rezervations;
+use App\Models\Guardian;
 use Illuminate\Http\Request;
 
-class RezervationsController extends Controller
+class GuardianController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +34,7 @@ class RezervationsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Rezervations $rezervations)
+    public function show(Guardian $guardian)
     {
         //
     }
@@ -42,7 +42,7 @@ class RezervationsController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Rezervations $rezervations)
+    public function edit(Guardian $guardian)
     {
         //
     }
@@ -50,7 +50,7 @@ class RezervationsController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Rezervations $rezervations)
+    public function update(Request $request, Guardian $guardian)
     {
         //
     }
@@ -58,7 +58,7 @@ class RezervationsController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Rezervations $rezervations)
+    public function destroy(Guardian $guardian)
     {
         //
     }

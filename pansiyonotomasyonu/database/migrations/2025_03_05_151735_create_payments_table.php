@@ -13,10 +13,12 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('rezervation_id')->constrained('rezervations')->onDelete('cascade');
+            $table->foreignId('student_id')->constrained('students')->onDelete('cascade');
             $table->decimal('amount', 10, 2);
-            $table->enum('payment_method', ['cash', 'credit_card'])->default('credit_card');
-            $table->enum('status', ['pending', 'completed', 'failed', 'refunded'])->default('pending'); // Ödeme durumu
+            $table->date('payment_date')->default(now());
+            $table->string('payment_status');
+            $table->string('payment_type');
+            $table->date('due_date');
             $table->timestamps();
         });
     }
