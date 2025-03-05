@@ -11,10 +11,10 @@
     <div class="container mt-5">
         <!-- Başlık ve Açıklama -->
         <div class="text-center">
-            <h2 class="fw-bold">Ardes Öğrenci Yurdu</h2>
+            <h2 class="fw-bold">Gülnur Öğrenci Yurdu</h2>
             <p class="text-muted">
                 Güvenli, konforlu ve modern öğrenci yurdu!
-                Ardes Öğrenci Yurdu, öğrenciler için en iyi konaklama deneyimini sunar.
+                GülNur Öğrenci Yurdu, öğrenciler için en iyi konaklama deneyimini sunar.
             </p>
         </div>
 
