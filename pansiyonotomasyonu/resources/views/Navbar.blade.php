@@ -23,7 +23,7 @@
             <!-- Buton (Navbarın Üstüne Eklenen) -->
             <div class="navbar-button-container">
                 <a class="custom-button" href="{{ route('login') }}">Giriş Yap</a>
-                    <a class="custom-button" href="{{ route('register') }}" >Kayıt Ol</a>
+                    <a class="custom-button" href="{{ route('register') }}" >REZERVASYON</a>
             </div>
         </nav>
     </div>
