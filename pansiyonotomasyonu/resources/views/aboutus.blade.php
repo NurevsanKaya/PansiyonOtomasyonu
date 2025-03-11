@@ -1,121 +1,93 @@
+
+
+
 @extends('Home')
 
 @section('content')
-    @vite('resources/js/aboutus.js')
-    @vite('resources/css/aboutus.css')
-    <br>
-    <br>
-    <br>
 
 
-    <div class="container mt-5">
-        <!-- Başlık ve Açıklama -->
-        <div class="text-center">
-            <h2 class="fw-bold">Gülnur Öğrenci Yurdu</h2>
-            <p class="text-muted">
-                Güvenli, konforlu ve modern öğrenci yurdu!
-                GülNur Öğrenci Yurdu, öğrenciler için en iyi konaklama deneyimini sunar.
-            </p>
-        </div>
+    <section id="about-2" class="about-2 section light-background">
 
-        <!-- Görselli Bölüm -->
-        <div class="row align-items-center mt-4">
-            <div class="col-md-6">
-                <img src="oda1.jpg" alt="Oda 1">
-            </div>
-            <div class="col-md-6">
-                <h1> Çomü Terzioğlu Kampüsü'ndeki Tek Özel Yurttasın <h1>
-                        <br>
-                        <br> <br>
-                        <br>
-                <h2 class="fw-bold">Neden Bizi Seçmelisiniz?</h2>
-
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-check-circle text-primary"></i> Güvenli ve modern odalar</li>
-                    <li><i class="fas fa-check-circle text-primary"></i> 7/24 Güvenlik ve Kamera Sistemi</li>
-                    <li><i class="fas fa-check-circle text-primary"></i> Ücretsiz Wi-Fi ve Çalışma Alanları</li>
-                    <li><i class="fas fa-check-circle text-primary"></i> Spor Salonu ve Sosyal Alanlar</li>
-                    <li><i class="fas fa-check-circle text-primary"></i> Uygun Fiyat ve Esnek Ödeme Seçenekleri</li>
-                </ul>
-                <a href="{{ url('/contact') }}" class="btn btn-primary">Bize Ulaşın</a>
-            </div>
-        </div>
-
-        <!-- Açılır Kapanır Bilgi Bölümü (Accordion) -->
-        <div class="mt-5">
-            <h3 class="fw-bold text-center">Sıkça Sorulan Sorular</h3>
-            <div class="accordion mt-3" id="faqAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            Odalar Kaç Kişilik?
-                        </button>
-                    </h2>
-                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            1, 2, 3 ve 4 kişilik odalarımız mevcuttur. Odalarımız konforlu ve ferahtır.
+        <div class="container">
+            <div class="content">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-5 col-lg-4 col-xl-4 order-lg-2 offset-xl-1 mb-4">
+                        <div class="img-wrap text-center text-md-left" data-aos="fade-up" data-aos-delay="100">
+                            <div class="img">
+                                <img src="assets/img/img_v_3.jpg" alt="circle image" class="img-fluid">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                            Yemek Hizmeti Var mı?
-                        </button>
-                    </h2>
-                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Sabah kahvaltısı ve akşam yemeği yurt ücretine dahildir.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                            Çamaşırhane ve Temizlik Hizmeti Sunuluyor mu?
-                        </button>
-                    </h2>
-                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Haftalık oda temizliği ve çamaşırhane hizmetimiz bulunmaktadır.
+
+                    <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+                        <div class="px-3">
+                            <span class="content-subtitle">Our Mission</span>
+                            <h2 class="content-title text-start">
+                                The Big Oxmox advised her not to do so, because there were
+                                thousands.
+                            </h2>
+                            <p class="lead">
+                                A small river named Duden flows by their place and supplies it
+                                with the necessary regelialia. It is a paradisematic country.
+                            </p>
+                            <p class="mb-5">
+                                The Big Oxmox advised her not to do so, because there were
+                                thousands of bad Commas, wild Question Marks and devious Semikoli.
+                            </p>
+                            <p>
+                                <a href="#" class="btn-get-started">Get Started</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section><!-- /About 2 Section -->
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
 
-        <!-- JS ile Animasyon ve Dinamik İçerik -->
-        <div class="mt-5">
-            <h3 class="fw-bold text-center">Yurdumuzu Keşfedin</h3>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm info-box" data-text="Konforlu yataklar, geniş dolaplar ve modern dekorasyon!">
-                        <div class="card-body text-center">
-                            <i class="fas fa-bed fa-3x text-primary mb-3"></i>
-                            <h5 class="card-title">Modern Odalar</h5>
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+
+                <div class="col-lg-3">
+                    <div class="services-item" data-aos="fade-up">
+                        <div class="services-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <div>
+                            <h3>Technology</h3>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm info-box" data-text="Geniş çalışma masaları ve ücretsiz Wi-Fi ile verimli ders çalışma alanları!">
-                        <div class="card-body text-center">
-                            <i class="fas fa-book-open fa-3x text-primary mb-3"></i>
-                            <h5 class="card-title">Çalışma Alanları</h5>
+
+                <div class="col-lg-3">
+                    <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="services-icon">
+                            <i class="bi bi-command"></i>
+                        </div>
+                        <div>
+                            <h3>Web Design</h3>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm info-box" data-text="Kampüs ve şehir merkezine yakın, kolay ulaşım!">
-                        <div class="card-body text-center">
-                            <i class="fas fa-map-marker-alt fa-3x text-primary mb-3"></i>
-                            <h5 class="card-title">Harika Konum</h5>
+
+                <div class="col-lg-3">
+                    <div class="services-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="services-icon">
+                            <i class="bi bi-bar-chart"></i>
+                        </div>
+                        <div>
+                            <h3>Branding</h3>
+                            <p>Separated they live in Bookmarksgrove right at the coast</p>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <p id="info-text" class="text-center mt-3"></p>
         </div>
+    </section><!-- /Services Section -->
 
-    </div>
 
 @endsection

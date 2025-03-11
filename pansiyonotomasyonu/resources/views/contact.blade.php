@@ -1,8 +1,9 @@
 
 @extends('Home')
+
 @section('content')
 
-
+    @vite('resources/css/contact.css')
 
     <div class="contact-container">
         <h1 class="contact-title">İLETİŞİM</h1>
