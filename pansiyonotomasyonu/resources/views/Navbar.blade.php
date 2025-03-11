@@ -1,30 +1,33 @@
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-xl position-relative d-flex align-items-center justify-content-between">
 
 
+    <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1 class="sitename">GülNur.</h1>
+        </a>
 
-<header class="header">
-    <div class="container d-flex ">
-        <div class="logo mt-2">
-            <h1>GülNur</h1>
-        </div>
-        <nav class="navbar mr-2">
+        <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="{{ url('/') }}">ANASAYFA</a></li>
+                <li><a href="{{ url('/') }}" class="active">ANASAYFA</a></li>
                 <li><a href="{{ url('/about') }}">HAKKIMIZDA</a></li>
-                <li><a href="{{ url('/room') }}">ODALAR</a></li>
+
                 <li><a href="{{ url('/gallery') }}">GALERİ</a></li>
+
+                <li class="dropdown"><a href="{{ url('/room') }}"><span>ODALAR</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="#">TEK KİŞİLİK</a></li>
+
+                        <li><a href="#">İKİ KİŞİLİK</a></li>
+                        <li><a href="#">ÜÇ KİŞİLİK</a></li>
+                        <li><a href="#">DÖRT KİŞİLİK</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{ url('/contact') }}">İLETİŞİM</a></li>
             </ul>
-            <!-- Sosyal medya ikonları -->
-            <div class="social-icons mr-5">
-                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-            </div>
-            <!-- Buton (Navbarın Üstüne Eklenen) -->
-            <div class="navbar-button-container ml-4">
-                <a class="custom-button" href="{{ route('login') }}">Giriş Yap</a>
-                    <!--<a class="custom-button" href="{{ route('register') }}" >REZERVASYON</a>-->
-            </div>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+        <a class="btn-getstarted" href="">Giriş Yap</a>
     </div>
 </header>
