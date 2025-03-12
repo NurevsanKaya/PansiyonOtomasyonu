@@ -6,21 +6,27 @@ use App\Http\Controllers\Admin\StudentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Home');
+    return view('Welcome');
 });
 
 Route::get('/contact', function () {
     return view('contact'); // contact.blade.php dosyasını döndürür
 });
-Route::get('/hakkımızda', function () {
+Route::get('/about', function () {
     return view('aboutus');
 });
-Route::get('/hizmetler', function () {
-    return view('service');
-});Route::get('/galeri', function () {
+Route::get('/room', function () {
+    return view('room');
+});Route::get('/gallery', function () {
     return view('gallery');
 });
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> ebdd14dd0df13b17903282d08fe643024913eb32
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
